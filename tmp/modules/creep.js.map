@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/modules/creep.js"],"names":[],"mappings":";;;;;;;;IAKM,QACO,SADP,MACQ;wBADR;;;iBAOS","file":"src/modules/creep.js","sourcesContent":["\n//#### class creep\n//- name\n//- type\n\nclass creep {\n  constructor(settings){\n\n  }\n\n}\n\nexport default creep;\n"]}

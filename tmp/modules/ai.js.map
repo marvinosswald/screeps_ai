@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/modules/ai.js"],"names":[],"mappings":";;;;;;IAAM;AACO,WADP,GACQ;0BADR;;AAEF,SAAK,OAAO;;;uBAFV;AAIJ;aAAI,gBAAE;;;;;;SAJF;;;iBASS","file":"src/modules/ai.js","sourcesContent":["class ai {\n  constructor(game){\n    this.game = game;\n  }\n  init(){\n\n  }\n}\n\nexport default ai;\n"]}
