@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":[],"mappings":";;;;IAAO,6BAAQ;;AAEf,OAAO,KAAK,QAAS","file":"src/index.js","sourcesContent":["import ai from \"./modules/ai\";\n\nglobal.ai = require (\"./modules/ai\");\n"]}
