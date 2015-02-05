@@ -2,6 +2,9 @@
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
 
-var ai = _interopRequire(require("./modules/ai"));
+var AI = _interopRequire(require("./modules/ai"));
 
-global.ai = require("./modules/ai");
+module.exports = function (Game) {
+  var ai = new AI(Game);
+  ai.init();
+};
