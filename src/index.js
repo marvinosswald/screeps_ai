@@ -1,3 +1,6 @@
-import ai from "./modules/ai";
+import AI from "./modules/ai";
 
-global.ai = require ("./modules/ai");
+module.exports = function(Game){
+  var ai = new AI(Game);
+  ai.init();
+}
