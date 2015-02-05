@@ -6,3 +6,13 @@
 npm install
 
 ```
+### Build
+```
+grunt
+
+```
+### Test
+```
+grunt test
+
+```

@@ -8,7 +8,6 @@ module.exports = function(grunt) {
   grunt.initConfig({
     "6to5": {
       options: {
-        sourceMap:true,
         modules: 'common'
       },
       build: {
